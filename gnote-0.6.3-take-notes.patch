@@ -1,0 +1,99 @@
+diff -up gnote-0.6.3/po/ar.po.take-notes gnote-0.6.3/po/ar.po
+--- gnote-0.6.3/po/ar.po.take-notes	2010-06-23 15:44:40.937758796 -0400
++++ gnote-0.6.3/po/ar.po	2010-06-23 15:47:39.115758999 -0400
+@@ -2270,3 +2270,7 @@ msgstr "هُبِرت فيجوري ومش
+ #~ msgstr ""
+ #~ "  --check-plugin-unloading\tتحقق من أن الملحقات تم إلغاء تحميلها بصورة "
+ #~ "صحيحة.\n"
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "سجّل الملاحظات"
+diff -up gnote-0.6.3/po/cs.po.take-notes gnote-0.6.3/po/cs.po
+--- gnote-0.6.3/po/cs.po.take-notes	2010-06-23 15:44:40.956754865 -0400
++++ gnote-0.6.3/po/cs.po	2010-06-23 15:47:39.127754124 -0400
+@@ -1990,3 +1990,7 @@ msgstr "Používat vlastní _písmo"
+ #~ "Abyste příště zamezili tomuto varování, bylo by vhodné spouštět FUSE při "
+ #~ "startu systému. Přidejte řádek „modprobe fuse“ do souboru /etc/init.d/"
+ #~ "boot.local nebo „fuse“ do /etc/modules."
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Probrat poznámky"
+diff -up gnote-0.6.3/po/hu.po.take-notes gnote-0.6.3/po/hu.po
+--- gnote-0.6.3/po/hu.po.take-notes	2010-06-23 15:44:40.976754740 -0400
++++ gnote-0.6.3/po/hu.po	2010-06-23 15:47:39.145754488 -0400
+@@ -1432,3 +1432,7 @@ msgstr "A _kijelölt formátum használa
+ msgid "_Use Custom Format"
+ msgstr "_Egyéni formátum használata"
+ 
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Jegyzetek készítése"
+diff -up gnote-0.6.3/po/id.po.take-notes gnote-0.6.3/po/id.po
+--- gnote-0.6.3/po/id.po.take-notes	2010-06-23 15:44:40.979754147 -0400
++++ gnote-0.6.3/po/id.po	2010-06-23 15:47:39.151755541 -0400
+@@ -1371,3 +1371,7 @@ msgstr "Tambahkan kemampuan menggaris-ba
+ msgid "Hubert Figuière and the Tomboy Project"
+ msgstr "Hubert Figuière dan Projek Tomboy"
+ 
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Simpan catatan"
+diff -up gnote-0.6.3/po/lt.po.take-notes gnote-0.6.3/po/lt.po
+--- gnote-0.6.3/po/lt.po.take-notes	2010-06-23 15:44:40.983765187 -0400
++++ gnote-0.6.3/po/lt.po	2010-06-23 15:47:39.215758668 -0400
+@@ -1543,3 +1543,7 @@ msgstr "Importuoti savo raštelius iš T
+ #: ../src/addins/tomboyimport/tomboyimportaddin.cpp:55
+ msgid "Hubert Figuiere"
+ msgstr "Hubert Figuiere"
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Rašyti raštelius"
+diff -up gnote-0.6.3/po/pl.po.take-notes gnote-0.6.3/po/pl.po
+--- gnote-0.6.3/po/pl.po.take-notes	2010-06-23 15:44:40.987754992 -0400
++++ gnote-0.6.3/po/pl.po	2010-06-23 15:47:39.232790985 -0400
+@@ -1623,3 +1623,7 @@ msgstr "Dodaje możliwość podkreślani
+ #: ../src/addins/underline/underlinenoteaddin.cpp:55
+ msgid "Hubert Figuière and the Tomboy Project"
+ msgstr "Hubert Figuière i Projekt Tomboy"
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Robienie notatek"
+diff -up gnote-0.6.3/po/sl.po.take-notes gnote-0.6.3/po/sl.po
+--- gnote-0.6.3/po/sl.po.take-notes	2010-06-23 15:44:40.994753985 -0400
++++ gnote-0.6.3/po/sl.po	2010-06-23 15:47:39.243754082 -0400
+@@ -1394,3 +1394,7 @@ msgstr "Doda možnost podčrtovanja bese
+ msgid "Hubert Figuière and the Tomboy Project"
+ msgstr "Hubert Figuière in Tomboy projekt"
+ 
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Zapiši sporočilca"
+diff -up gnote-0.6.3/po/sv.po.take-notes gnote-0.6.3/po/sv.po
+--- gnote-0.6.3/po/sv.po.take-notes	2010-06-23 15:44:40.998757200 -0400
++++ gnote-0.6.3/po/sv.po	2010-06-23 15:47:39.249753736 -0400
+@@ -2251,3 +2251,7 @@ msgstr "Hubert Figuière och Tomboy-proj
+ #~ "Christian Rose\n"
+ #~ "Skicka synpunkter på översättningen till sv@li.org"
+ 
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "Skriv anteckningar"
+diff -up gnote-0.6.3/po/th.po.take-notes gnote-0.6.3/po/th.po
+--- gnote-0.6.3/po/th.po.take-notes	2010-06-23 15:44:41.002754269 -0400
++++ gnote-0.6.3/po/th.po	2010-06-23 15:47:39.296754441 -0400
+@@ -2407,3 +2407,7 @@ msgstr "Hubert Figuière และโค
+ 
+ #~ msgid "%A %D, %I:%M %p"
+ #~ msgstr "%A %d/%m/%Ey %H:%M"
++
++#: ../src/tray.cpp:50
++msgid "Take notes"
++msgstr "เขียนบันทึก"
